@@ -1,0 +1,223 @@
+%-------------------------
+% Resume in LaTeX
+% Based on Jake Gutierrez's template
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Kevin Rajan} \\ \vspace{1pt}
+    \small \href{mailto:kevin@example.com}{\underline{kevin@example.com}} $|$
+    \href{https://linkedin.com/in/kevinsrajan}{\underline{linkedin.com/in/kevinsrajan}} $|$
+    \href{https://github.com/kevinsrajan}{\underline{github.com/kevinsrajan}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Illinois at Urbana-Champaign}{Urbana-Champaign, IL}
+      {Bachelor of Science in Engineering Physics, Minor in Computer Science}{Aug. 2016 -- May 2020}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Founder \& CEO}{2023 -- Present}
+      {zero, LLC}{Remote}
+      \resumeItemListStart
+        \resumeItem{Built continuous research systems to synthesize population-level trends to formulate preventative health solutions}
+        \resumeItem{Prototyped OS-level automation for end-to-end product management, enabling LLMs to use internal, application-level APIs, resulting in complex workflows spanning multiple platforms and applications}
+        \resumeItem{Designed digital twin simulations to prototype AI factories and industrialize feedback loops implementing systems-thinking}
+        \resumeItem{Implemented efficient, reproducible development environments (NixOS, Ubuntu, Arch, Kubernetes) for on-prem compute, reducing operating costs by 50\%}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {LLM Training Specialist}{2022 -- 2023}
+      {Outlier (Scale AI)}{Remote}
+      \resumeItemListStart
+        \resumeItem{Designed and applied detailed rubrics for LLM evaluation, writing complex logic, math, and physics prompts to elicit reasoning failures and guide model improvement through process-supervision feedback}
+        \resumeItem{Performed red-teaming and fact-checking across STEM and general-knowledge domains, verifying claims with web sources}
+        \resumeItem{Conducted large-scale preference labeling and comparative ranking of multiple LLMs (RLHF, DPO, RLAIF)}
+        \resumeItem{Developed multimodal and tool-use evaluations integrating text, image, and retrieval tasks to measure grounding and reasoning depth}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Ultralearning Sabbatical}{2021 -- 2022}
+      {Self-Directed}{Remote}
+      \resumeItemListStart
+        \resumeItem{Engineered a holistic performance optimization system applying an algorithmic feedback loop (Research, Implement, Analyze, Iterate) to systematically correlate and refine inputs including sleep, nutrition, and training protocols}
+        \resumeItem{Executed data-driven analysis to benchmark rapid skill acquisition, achieving validated performance metrics within the top 1-5\% of a 25M+ user environment}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Senior Consultant}{Aug. 2018 -- 2021}
+      {Slalom Consulting}{Chicago, IL}
+      \resumeItemListStart
+        \resumeItem{Collaborated within a multi-disciplinary team to enhance client (4B+ revenue finance firm) engagement while modernizing technology systems across 12 teams and verticals using AWS, Jenkins, Terraform, and Vault}
+        \resumeItem{Improved developer impact by creating tailored CI/CD pipelines that publish biweekly golden Windows and RHEL releases, ensuring security standards within custom AMIs}
+        \resumeItem{Championed a comprehensive DevOps training program tailored for over 500 new hires, designing engaging onboarding sessions fostering collaboration and hands-on learning}
+        \resumeItem{Steered the conceptualization of a preventative health platform as product owner, orchestrating diverse health data sources from wearables to metabolic panels}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------ADDITIONAL EXPERIENCE-----------
+\section{Additional Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Software Engineer Intern (EC2 Fargate)}{Summer 2018}
+      {Amazon Web Services}{Seattle, WA}
+      \resumeItemListStart
+        \resumeItem{Increased response time in identifying customer container issues by integrating pool metrics for developers}
+        \resumeItem{Automated customer compute capacity management through algorithmic traffic spike detection}
+      \resumeItemListEnd
+    \resumeSubheading
+      {IT Enterprise Architect Intern}{Jun. 2018 -- Aug. 2018}
+      {BlueCross BlueShield}{Chicago, IL}
+      \resumeItemListStart
+        \resumeItem{Executed projects contributing to HCSC's enterprise data strategy}
+      \resumeItemListEnd
+    \resumeSubheading
+      {iOS Engineer / UX Engineer}{Jul. 2017 -- Feb. 2018}
+      {Prenosis Inc.}{Champaign, IL}
+      \resumeItemListStart
+        \resumeItem{Designed an iOS application enabling physicians to manage patients' lab results, vitals, and imaging statistics}
+        \resumeItem{Integrated Prenosis Number risk stratification feature for patient prioritization}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------LEADERSHIP-----------
+\section{Leadership}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {iOS Developer / Open Source Coordinator / Sponsorship}{2015 -- 2018}
+      {HackIllinois}{Champaign, IL}
+      \resumeItemListStart
+        \resumeItem{Developed iOS app for 15,000+ attendees; raised \$300K+ in sponsorships from 120+ corporations}
+        \resumeItem{Managed open source initiative attracting leading technology firms; invited 40 mentors nationwide}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, C++, C, Java, Haskell, Swift, JavaScript, HTML/CSS, SQL} \\
+     \textbf{DevOps \& Cloud}{: AWS, Terraform, Jenkins, Azure, Kubernetes, Docker, Git, CI/CD Pipelines} \\
+     \textbf{AI \& LLMs}{: Claude Code, Codex, Gemini CLI, Cursor, MCP Servers, Context Engineering, RLHF, DPO} \\
+     \textbf{Data \& Analytics}{: pandas, NumPy, Tableau, PowerBI, Matplotlib} \\
+     \textbf{iOS \& Design}{: Xcode, Swift, CocoaPods, Firebase, Figma, Sketch}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
