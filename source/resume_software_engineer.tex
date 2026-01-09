@@ -1,0 +1,153 @@
+%-------------------------
+% Software Engineer Resume - 1 Page
+% Optimized for: Full-stack, Backend, Systems Engineering roles
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{-2pt}}}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge \scshape Kevin Rajan} \\ \vspace{1pt}
+    \small \href{mailto:kevin@example.com}{\underline{kevin@example.com}} $|$
+    \href{https://linkedin.com/in/kevinsrajan}{\underline{linkedin.com/in/kevinsrajan}} $|$
+    \href{https://github.com/kevinsrajan}{\underline{github.com/kevinsrajan}}
+\end{center}
+
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, TypeScript, JavaScript, Java, C++, Swift, SQL, Go, Bash} \\
+     \textbf{Backend}{: Node.js, Express, FastAPI, Flask, REST APIs, GraphQL, Microservices, Docker, Kubernetes} \\
+     \textbf{Cloud \& Infrastructure}{: AWS (EC2, S3, Lambda, RDS), Azure, Terraform, Jenkins, CI/CD, Git} \\
+     \textbf{Databases \& Data}{: PostgreSQL, MySQL, MongoDB, Redis, Firebase, pandas, NumPy}
+    }}
+ \end{itemize}
+
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Founder \& Software Engineer}{Jun. 2024 -- Present}
+      {zero, LLC}{Remote}
+      \resumeItemListStart
+        \resumeItem{Architected end-to-end automation platform using Python, TypeScript, and REST APIs enabling LLMs to orchestrate workflows across 10+ applications, reducing manual intervention by 80\%}
+        \resumeItem{Designed reproducible IaC environments using Docker and Kubernetes for GPU compute clusters, reducing costs by 50\%}
+        \resumeItem{Built data pipelines using Python, pandas, and scikit-learn to process 50K+ data points for health analytics}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Software Development Engineer Intern (EC2 Fargate)}{Summer 2018}
+      {Amazon Web Services}{Seattle, WA}
+      \resumeItemListStart
+        \resumeItem{Developed monitoring dashboard using Java and CloudWatch to visualize container metrics, reducing MTTD by 40\%}
+        \resumeItem{Implemented auto-scaling system using Python and Lambda handling 10K+ container requests/hour during traffic spikes}
+        \resumeItem{Contributed to EC2 Fargate codebase serving millions of containers daily, participating in code reviews}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Senior Consultant -- Technology Enablement}{Jun. 2021 -- Jul. 2023}
+      {Slalom Consulting}{Chicago, IL}
+      \resumeItemListStart
+        \resumeItem{Led development of CI/CD pipelines using Jenkins and Terraform for Fortune 500 client, reducing deployment time by 70\%}
+        \resumeItem{Containerized 15+ microservices using Docker and Helm, deploying to Kubernetes (EKS/AKS) with 99.9\% uptime}
+        \resumeItem{Built automated AMI pipeline using Packer ensuring CIS compliance for 500+ developer workstations}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {iOS Engineer}{Jul. 2017 -- Feb. 2018}
+      {Prenosis Inc.}{Champaign, IL}
+      \resumeItemListStart
+        \resumeItem{Developed production iOS app using Swift and Firebase serving 1,000+ patients with 99.5\% uptime}
+        \resumeItem{Built RESTful API integrations processing 5K+ daily transactions; implemented risk algorithm reducing decision time by 25\%}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Software Engineering Intern}{May 2016 -- Jul. 2016}
+      {Wipro Consulting}{Chennai, India}
+      \resumeItemListStart
+        \resumeItem{Engineered ETL pipeline using Python and SQL to migrate 500K+ records, reducing report generation time by 60\%}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Flight Simulator} $|$ \emph{WebGL, Unity, C\#, JavaScript, Oculus SDK}}{2016}
+          \resumeItemListStart
+            \resumeItem{Built 3D flight simulator using custom shaders and procedural terrain generation achieving 60 FPS; extended to VR}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{iOS Rental Marketplace} $|$ \emph{Swift, Firebase, Node.js, Venmo/PayPal APIs}}{2016}
+          \resumeItemListStart
+            \resumeItem{Built full-stack iOS app with payment integration serving 500+ users; implemented OAuth with 99\% success rate}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Illinois at Urbana-Champaign}{Urbana-Champaign, IL}
+      {B.S. Engineering Physics, Minor in Computer Science}{May 2020}
+      \resumeItemListStart
+        \resumeItem{Coursework: Operating Systems, Compilers, Computer Architecture, Systems Programming, Parallel Programming}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+\end{document}

@@ -1,0 +1,148 @@
+%-------------------------
+% AI/ML Engineer Resume - 1 Page
+% Optimized for: Machine Learning, AI, LLM, Data Science roles
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{-2pt}}}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge \scshape Kevin Rajan} \\ \vspace{1pt}
+    \small \href{mailto:kevin@example.com}{\underline{kevin@example.com}} $|$
+    \href{https://linkedin.com/in/kevinsrajan}{\underline{linkedin.com/in/kevinsrajan}} $|$
+    \href{https://github.com/kevinsrajan}{\underline{github.com/kevinsrajan}}
+\end{center}
+
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{ML/AI Frameworks}{: PyTorch, TensorFlow, scikit-learn, Hugging Face Transformers, LangChain, OpenAI API} \\
+     \textbf{LLM Training}{: RLHF, DPO, RLAIF, Prompt Engineering, Fine-tuning, Red-teaming, Evaluation Design} \\
+     \textbf{Languages \& Tools}{: Python, SQL, NumPy, pandas, Matplotlib, Jupyter, MLflow, Weights \& Biases} \\
+     \textbf{Infrastructure}{: AWS (SageMaker, Lambda), Docker, Kubernetes, Git, FastAPI, REST APIs}
+    }}
+ \end{itemize}
+
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {LLM Training Specialist}{Jan. 2025 -- Present}
+      {Outlier (Scale AI)}{Remote}
+      \resumeItemListStart
+        \resumeItem{Designed comprehensive evaluation rubrics for LLM assessment, authoring 500+ complex prompts in logic, mathematics, and physics to identify reasoning failures and improve model performance by 15\%}
+        \resumeItem{Conducted red-teaming and adversarial testing across STEM domains, documenting 200+ edge cases contributing to safety alignment in production models (GPT-4, Claude)}
+        \resumeItem{Performed large-scale preference labeling using RLHF, DPO, and RLAIF methodologies across 10K+ comparisons, achieving 94\% inter-annotator agreement on quality rankings}
+        \resumeItem{Developed multimodal evaluation frameworks integrating text, image, and tool-use tasks using Python, measuring grounding accuracy across 5 model architectures}
+        \resumeItem{Built automated data validation scripts reducing annotation error rates by 30\%}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Founder \& AI Engineer}{Jun. 2024 -- Present}
+      {zero, LLC}{Remote}
+      \resumeItemListStart
+        \resumeItem{Architected AI automation platform using Python and LangChain enabling LLMs to orchestrate workflows across 10+ applications, reducing manual intervention by 80\%}
+        \resumeItem{Built continuous research systems using pandas and scikit-learn to synthesize 50K+ health data points}
+        \resumeItem{Prototyped digital twin simulations using PyTorch and reinforcement learning, achieving 95\% accuracy in predicting system bottlenecks}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Data-Driven Research (Sabbatical)}{Jul. 2023 -- Jun. 2024}
+      {Self-Directed}{Naperville, IL}
+      \resumeItemListStart
+        \resumeItem{Engineered performance optimization system using Python, SQL, and ML-based correlation analysis to track 50+ daily metrics and identify optimal training protocols}
+        \resumeItem{Achieved top 1-5\% ranking (25M+ users) through systematic A/B testing and iterative feedback optimization}
+        \resumeItem{Applied statistical analysis to reverse-engineer complex systems, documenting findings in 20+ technical reports}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Senior Consultant -- Technology Enablement}{Jun. 2021 -- Jul. 2023}
+      {Slalom Consulting}{Chicago, IL}
+      \resumeItemListStart
+        \resumeItem{Led data strategy initiatives for Fortune 500 clients, building analytics pipelines and dashboards using Tableau and Python}
+        \resumeItem{Spearheaded knowledge base creation using Confluence, establishing foundation for AI-driven content generation}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{RoutinePlus} $|$ \emph{Swift, Core ML, Firebase}}{2017}
+          \resumeItemListStart
+            \resumeItem{Developed iOS app using Core ML to analyze calendar patterns and optimize routines with 90\% user satisfaction}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Nanotechnology Research} $|$ \emph{Python, MATLAB, Statistical Analysis}}{2016}
+          \resumeItemListStart
+            \resumeItem{Analyzed absorption spectra using Python/MATLAB across 100+ experiments; published findings on nanoparticle optimization}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Illinois at Urbana-Champaign}{Urbana-Champaign, IL}
+      {B.S. Engineering Physics, Minor in Computer Science}{May 2020}
+      \resumeItemListStart
+        \resumeItem{Coursework: Applied Machine Learning, Text Information Systems, Parallel Programming, Statistical Methods}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+\end{document}

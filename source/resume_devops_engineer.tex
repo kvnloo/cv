@@ -1,0 +1,140 @@
+%-------------------------
+% DevOps/Infrastructure Engineer Resume - 1 Page
+% Optimized for: DevOps, SRE, Platform, Cloud Engineering roles
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{-2pt}}}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge \scshape Kevin Rajan} \\ \vspace{1pt}
+    \small \href{mailto:kevin@example.com}{\underline{kevin@example.com}} $|$
+    \href{https://linkedin.com/in/kevinsrajan}{\underline{linkedin.com/in/kevinsrajan}} $|$
+    \href{https://github.com/kevinsrajan}{\underline{github.com/kevinsrajan}}
+\end{center}
+
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Cloud Platforms}{: AWS (EC2, S3, Lambda, EKS, RDS, CloudWatch, IAM), Azure (AKS), GCP} \\
+     \textbf{Infrastructure as Code}{: Terraform, Ansible, Packer, CloudFormation, Helm, ArgoCD} \\
+     \textbf{Containerization}{: Docker, Kubernetes, Docker Swarm, containerd, EKS, AKS} \\
+     \textbf{CI/CD \& Automation}{: Jenkins, GitLab CI, GitHub Actions, Bash, Python, Git} \\
+     \textbf{Monitoring \& Observability}{: CloudWatch, Prometheus, Grafana, ELK Stack, Datadog}
+    }}
+ \end{itemize}
+
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Founder \& Infrastructure Engineer}{Jun. 2024 -- Present}
+      {zero, LLC}{Remote}
+      \resumeItemListStart
+        \resumeItem{Designed and deployed Infrastructure as Code environments using NixOS, Docker, and Kubernetes for on-premise GPU compute clusters, reducing operating costs by 50\% (\$15K/month savings)}
+        \resumeItem{Architected automated deployment pipelines for AI workloads using GitOps principles and ArgoCD}
+        \resumeItem{Implemented monitoring and alerting using Prometheus and Grafana, achieving 99.9\% system uptime}
+        \resumeItem{Built reproducible development environments using Nix, enabling consistent deployments across dev/staging/prod}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Senior Consultant -- Technology Enablement}{Jun. 2021 -- Jul. 2023}
+      {Slalom Consulting}{Chicago, IL}
+      \resumeItemListStart
+        \resumeItem{Led DevOps modernization for Fortune 500 finance client (\$4B+ revenue), deploying CI/CD pipelines using Jenkins, Terraform, and AWS across 12 teams, reducing deployment time by 70\%}
+        \resumeItem{Architected IaC solutions using Terraform and Ansible to provision 200+ AWS resources (EC2, S3, Lambda, RDS) with 99.9\% uptime SLA}
+        \resumeItem{Designed automated AMI pipeline using Packer and Jenkins publishing biweekly golden Windows/RHEL images with CIS security compliance for 500+ developer workstations}
+        \resumeItem{Orchestrated multi-cloud Kubernetes environments (AWS EKS, Azure AKS), containerizing 15+ microservices using Docker and Helm charts}
+        \resumeItem{Championed DevOps training program for 500+ new hires, achieving 95\% satisfaction and reducing onboarding time by 40\%}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Software Development Engineer Intern (EC2 Fargate)}{Summer 2018}
+      {Amazon Web Services}{Seattle, WA}
+      \resumeItemListStart
+        \resumeItem{Developed internal monitoring dashboard using Java and CloudWatch to visualize container pool metrics, reducing mean-time-to-detection (MTTD) by 40\%}
+        \resumeItem{Implemented auto-scaling system using Python and Lambda to dynamically adjust compute capacity, handling 10K+ container requests/hour during traffic spikes}
+        \resumeItem{Contributed to EC2 Fargate service codebase, deploying features to production serving millions of containers daily}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {IT Enterprise Architect Intern}{Jun. 2018 -- Aug. 2018}
+      {BlueCross BlueShield (HCSC)}{Chicago, IL}
+      \resumeItemListStart
+        \resumeItem{Developed data architecture recommendations analyzing 10+ data sources, influencing \$2M+ technology decisions}
+        \resumeItem{Documented current-state architecture and proposed cloud migration roadmap across 5 departments}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+\section{Leadership}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Admin Committee}{Aug. 2016 -- May 2017}
+      {Association of Computing Machinery (ACM)}{Champaign, IL}
+      \resumeItemListStart
+        \resumeItem{Managed ACM infrastructure (Linux, Apache, MySQL) serving 2,000+ members; secured \$10K+ in sponsorships}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Illinois at Urbana-Champaign}{Urbana-Champaign, IL}
+      {B.S. Engineering Physics, Minor in Computer Science}{May 2020}
+      \resumeItemListStart
+        \resumeItem{Coursework: Operating Systems Design, Systems Programming, Computer Architecture, Parallel Programming}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+\end{document}
