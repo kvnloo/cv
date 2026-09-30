@@ -1,167 +1,93 @@
-+=========================+
-| Professional Experience |
-+=========================+
+Kevin Rajan
+(331) 444-2203 | kevinsrajan@gmail.com | Chicago, IL
+github.com/kvnloo | linkedin.com/in/kevinsrajan
 
-+-----------+
-| zero, LLC |
-+-----------+---------------------------+
-| Founder & CEO (Jun 2024 – Present) |
-+------------------------------------+
-* Build continuous research systems to synthesize population-level trends to formulate preventative health solutions.
-* Conduct technical research to automate software processes while networking with software clients, enabling strategic alignment during discovery to identify pain points and create AI workflows to be included in a statement of work. Prototype OS-level automation for end-to-end product management, enabling LLMs to use internal, application-level APIs, resulting in complex workflows spanning multiple platforms/applications.
-* Design intricate digital twin simulations to prototype AI factories and industrialize entire feedback loops to implement systems-thinking. Implemented efficient, reproducible development environments (nixos, ubuntu, arch, k8s) for on-prem compute by researching best practices, resulting in a reduction of operating costs by 50%.
+This text is reconciled from the vault. Current-role wording is from themes/ai-eng.odt.
+Past-role dates are from content/main.txt. Past-role bullets are from content/cv.txt.
+Numbers that appear only in the previous LaTeX rewrite are omitted.
 
-
-+--------------------+
-| Outlier (Scale AI) |
-+--------------------+---------------------------+
-| LLM Training Specialist (Jan 2025 – Present) |
-+----------------------------------------------+
-* Designed and applied detailed rubrics for LLM evaluation, writing complex logic, math, and physics prompts to elicit reasoning failures and guide model improvement through process-supervision feedback. Performed red-teaming and factchecking across STEM and general-knowledge domains, verifying claims with web sources and explaining weaknesses in model reasoning to refine future outputs.
-* Conducted large-scale preference labeling and comparative ranking of multiple LLMs (RLHF, DPO, RLAIF) while drafting critiques that articulated why certain completions failed rubric standards. Developed multimodal and tool-use evaluations integrating text, image, and retrieval tasks to measure grounding, reliability, and reasoning depth across diverse model architectures.
-
-+------------+
-| Sabbatical |
-+------------+------------------------------+
-| Ultralearning (Jul 2023 – Jun 2024) |
-+-------------------------------------+
-* Engineered a holistic performance optimization system to enhance cognitive and motor skills, applying an algorithmic feedback loop (Research → Implement → Analyze → Iterate) to systematically correlate and refine inputs, including sleep, nutrition, and specialized training protocols.
-* Executed a long-term data-driven analysis project to benchmark and optimize rapid skill acquisition; successfully reverseengineered complex, dynamic systems to identify and eliminate bottlenecks, culminating in validated performance metrics within the top 1-5% of a 25M+ user environment (Kovaaks, Valorant, Apex).
-
-+-------------------+
-| Slalom Consulting |
-+-------------------+-----------------+
-| Senior Consultant (Jun 2021 – Jul 2023) |
-+-----------------------------------------+
-* Collaborated within a multi-disciplinary team to enhance client (4B+ revenue finance firm) engagement while modernizing technology systems across 12 teams and verticals. Mitigated obstacles for business unit teams using enhanced software processes and workflows, promoting Agile/DevOps/CICD concepts by utilizing AWS, Jenkins, Terraform and Vault.
-* Improved developer impact by creating tailored pipelines that publish biweekly golden Windows and RHEL releases, ultimately ensuring security standards within custom AMIs.
-* Spearheaded the creation of a centralized knowledge base, curating exemplary business documents like SPROs, customer stories, qualifiers, and evaluations across technological and business administrative platforms to enhance company-wide accessibility post-sanitization and lay the groundwork for AI-driven content generation.
-* Championed a comprehensive DevOps training program tailored for over 500 new hires, ensuring a smooth transition into the company's technology ecosystem. Designed an engaging onboarding session anchored around point poker, fostering collaboration and hands-on learning. Orchestrated multi-cloud environments to provide an interactive, holistic, real-world experience of the best practices we use with our clients.
-* Steered the conceptualization of a preventative health platform acting as product owner. Orchestrated the amalgamation of diverse health data sources, from wearables to full metabolic/blood panels. Initiated outreach to several health tech leaders and experts to gather insights, shaping preliminary ideas for platform features. Prioritized areas of focus by aligning the platform with cutting-edge health research and its potential for predictive analysis and enhanced patient outcomes.
-
-+----------------------+
-| Amazon (Seattle, WA) |
-+----------------------+-----------------------------------------+
-| Software Engineering Intern (EC2 Fargate) (Aug 2018 – Present) |
-+----------------------------------------------------------------+
-* Increase response time in identifying customer container issues by conceptualizing and integrating pool metrics that allow developers to understand the “state of the world”
-* Automate modifying customer’s compute capacity through automatic pool management system that algorithmically detects customer traffic spikes
-
-+------------------------------------+
-| BlueCross BlueShield (Chicago, IL) |
-+------------------------------------+-----------------+
-| IT Enterprise Architect Intern (Jun 2018 – Aug 2018) |
-+------------------------------------------------------+
-* Execute individual contributor projects that become inputs and contribute toward HCSC’s enterprise data strategy
-* Convert technical data to ideas and concepts that encourage pursuit of strategy or solicit action
-
-
-+-------------------------------+
-| Prenosis Inc. (Champaign, IL) |
-+-------------------------------+------------------+
-| iOS Engineer / UX Engineer (Jul 2017 – Feb 2018) |
-+--------------------------------------------------+
-* Designed an iOS application from scratch that allows physicians to manage various patients’ lab results, vitals, imaging results, and other significant statistics
-* Integrated a feature called “Prenosis” Number, which acts as a risk stratification value that allows physicians to prioritize the order in which they see the patients
-* Created a cross-functional feature such that physicians can access patients’ past medical history, prescriptions, and doctor notes, as well as prescribe new medications
-
-
-+-----------------------------------+
-| Wipro Consulting (Chennai, India) |
-+-----------------------------------+---------------+
-| Software Engineering Intern (May 2016 – Jul 2016) |
-+---------------------------------------------------+
-* Parsed data from IBM Cognos and converted it to a Tableau data source to facilitate for an efficient transition between big data platforms so that clients could move towards more modern data management systems
-* Developed a data source extractor that imports large amounts of raw information from distributed servers to create a final Tableau data source by accessing various queries and filters applied on the collected data sets
-
-
-+---------------------------+
-| ByteBros. (Champaign, IL) |
-+---------------------------+----------------------------------+
-| Freelance iOS Contractor / UI Designer (Jan 2016 – Jul 2016) |
-+--------------------------------------------------------------+
-* Implemented a multi-view iOS Application using payment API methods including Venmo and PayPal for the client that allows users to rent commonplace items from each other
-* Utilized Facebook logins to generate user accounts in Firebase to store preferences and rent history
- 
-
-+=======================+
-| Leadership Experience |
-+=======================+
-
-+------------------------------+
-| HackIllinois (Champaign, IL) |
-+------------------------------+--------------------------+
-| iOS Developer (be.net/kevinsrajan) (Jan 2017 – Present) |
-+---------------------------------------------------------+
-* Developed an iOS application that allows ~15k people (hackers, mentors, recruiters) to have seamless experience during the 36-hr student-run hackathon allowing them to check into events, checkout hardware, and get food. Raised $300k+ from event sponsors for operational costs & prizes.
-
-+-----------------------------------------------+
-| Open Source Coordinator (Aug 2015 – May 2016) |
-+-----------------------------------------------+
-* Managed the open source initiative, a pilot program that has significantly expanded this year to become the main attraction for several leading technology firms and open source groups
-* Invited 40 mentors from across the nation, who had strong backgrounds in open source to oversee a group of hackers to contribute to existing and create new open source projects 
-
-+-----------------------------------------+
-| Sponsorship Staff (Aug 2015 – May 2016) |
-+-----------------------------------------+
-* Raised over $300,000 by building long-lasting relationships with over 120 corporations
-* Streamlined relations between the staff and sponsoring corporations to guarantee an inviting corporate experience during the event while managing several other logistics of the hackathon
-
-+----------------------------------------------------+
-| Association of Computing Machinery (Champaign, IL) |
-+----------------------------------------------------+--------+
-| Admin Committee / Corporate Committee (Aug 2016 – May 2017) |
-+-------------------------------------------------------------+
-* Manage ACM’s website and Active User Directory while maintaining servers for special interest groups
-* Maintain professional relations between the university and various corporations to facilitate hosting tech talks
-* Increase funding for workplace hardware supplies by establishing strong relationships with corporate sponsors
-
-
-+--------------------------+
-| Codepath (Champaign, IL) |
-+--------------------------+--------------+
-| Class Coordinator (Jan 2016 – Jul 2016) |
-+-----------------------------------------+
-* Handled logistics for classroom locations after creating the bridge between CodePath University and UIUC to lecture and stimulate discussion within an iOS bootcamp lab to teach students basic iOS programming
-* Developed several unique iOS applications each week by utilizing various CocoaPods and APIs
-* Implemented an app that allows user to see current and trending Movies/TV Shows using Apiary’s TMDB
-
-
-+==========+
-| Projects |
-+==========+
-
-+-----------------------------------+
-| RoutinePlus (Jan 2017 – Jun 2017) |
-+-----------------------------------+
-* Designed and prototyped iOS alarm clock application with Figma and Framer by following material design guidelines that sets “intelligent” alarms by analyzing calendar entries 
-* Automated integration with HomeKit based on the user’s routine, location and preferences to control smarthome products such as thermostats, coffee brewers, TVs, and home security
-
-+----------------------------------------+
-| Flight Simulator (Oct 2016 – Dec 2016) |
-+----------------------------------------+
-* Created a flight simulator in WebGL by applying transformation matrices and rotation quaternions onto the camera, in which the terrain is randomly generated using the Diamond-Square algorithm
-* Extended the flight simulator to Unity with virtual reality support on the Oculus, in which the flight is a more detailed mesh to appear more realistic to the player
-
-+-----------------------------------------------------------------------+
-| Nanotechnology Research (https://goo.gl/VseBiK) (Oct 2016 – Dec 2016) |
-+-----------------------------------------------------------------------+
-* Synthesized biocompatible nanoparticles used for newer bioimaging techniques by researching the effect on Carbon nanoparticles’ absorption spectrums through the variation of polymeric coatings
-* Sharpened the absorption peaks of passivated nanoparticles by analyzing the properties of different polymers
- 
-
-+===========+
-| Education |
-+===========+
-
+EDUCATION
 University of Illinois at Urbana-Champaign
 Bachelor of Science in Engineering Physics, Minor in Computer Science
-Certificate in Technology Commercialization 
+Certificate in Technology Commercialization
 Graduated May 2020
 
-+=======================+
-| Development Platforms |
-+=======================+
+PROFESSIONAL EXPERIENCE
+zero, LLC — Founder & CEO (Jun 2024 – Present) — Remote
+- Build continuous research systems to synthesize population-level trends to formulate preventative health solutions.
+- Conduct technical research to automate software processes while networking with software clients, enabling strategic alignment during discovery to identify pain points and create AI workflows to be included in a statement of work. Prototype OS-level automation for end-to-end product management, enabling LLMs to use internal, application-level APIs, resulting in complex workflows spanning multiple platforms/applications.
+- Design intricate digital twin simulations to prototype AI factories and industrialize entire feedback loops to implement systems-thinking. Implemented efficient, reproducible development environments (NixOS, Ubuntu, Arch, Kubernetes) for on-prem compute by researching best practices, resulting in a reduction of operating costs by 50%.
+
+Outlier (Scale AI) — LLM Training Specialist (Jan 2025 – Present) — Remote
+- Designed and applied detailed rubrics for LLM evaluation, writing complex logic, math, and physics prompts to elicit reasoning failures and guide model improvement through process-supervision feedback. Performed red-teaming and fact-checking across STEM and general-knowledge domains, verifying claims with web sources and explaining weaknesses in model reasoning to refine future outputs.
+- Conducted large-scale preference labeling and comparative ranking of multiple LLMs (RLHF, DPO, RLAIF) while drafting critiques that articulated why certain completions failed rubric standards. Developed multimodal and tool-use evaluations integrating text, image, and retrieval tasks to measure grounding, reliability, and reasoning depth across diverse model architectures.
+
+Sabbatical — Self-Directed Ultralearning (Jul 2023 – Jun 2024) — Naperville, IL
+- Engineered a holistic performance optimization system to enhance cognitive and motor skills, applying an algorithmic feedback loop (Research → Implement → Analyze → Iterate) to systematically correlate and refine inputs, including sleep, nutrition, and specialized training protocols.
+- Executed a long-term data-driven analysis project to benchmark and optimize rapid skill acquisition; successfully reverse-engineered complex, dynamic systems to identify and eliminate bottlenecks, culminating in validated performance metrics within the top 1-5% of a 25M+ user environment (Kovaaks, Valorant, Apex).
+
+Slalom Consulting — Senior Consultant, Technology Enablement (Jun 2021 – Jul 2023) — Chicago, IL
+- Collaborated within a multi-disciplinary team to enhance client (4B+ revenue finance firm) engagement while modernizing technology systems across 12 teams and verticals. Mitigated obstacles for business unit teams using enhanced software processes and workflows, promoting Agile/DevOps/CI/CD concepts by utilizing AWS, Jenkins, Terraform and Vault.
+- Improved developer impact by creating tailored pipelines that publish biweekly golden Windows and RHEL releases, ultimately ensuring security standards within custom AMIs.
+- Spearheaded the creation of a centralized knowledge base, curating exemplary business documents like SPROs, customer stories, qualifiers, and evaluations across technological and business administrative platforms to enhance company-wide accessibility post-sanitization and lay the groundwork for AI-driven content generation.
+- Championed a comprehensive DevOps training program tailored for over 500 new hires, ensuring a smooth transition into the company's technology ecosystem. Designed an engaging onboarding session anchored around point poker, fostering collaboration and hands-on learning. Orchestrated multi-cloud environments to provide an interactive, holistic, real-world experience of the best practices we use with our clients.
+- Steered the conceptualization of a preventative health platform acting as product owner. Orchestrated the amalgamation of diverse health data sources, from wearables to full metabolic/blood panels. Initiated outreach to several health tech leaders and experts to gather insights, shaping preliminary ideas for platform features. Prioritized areas of focus by aligning the platform with cutting-edge health research and its potential for predictive analysis and enhanced patient outcomes.
+
+Synchrony Financial — Software Engineer (May 2019 – Aug 2019) — Chicago, IL
+- Title and dates only. The vault lists this role and does not include duty bullets.
+
+Amazon — AWS Developer, EC2 Fargate (Aug 2018 – Jan 2019) — Seattle, WA
+- Increase response time in identifying customer container issues by conceptualizing and integrating pool metrics that allow developers to understand the state of the world.
+- Automate modifying customer's compute capacity through an automatic pool management system that algorithmically detects customer traffic spikes.
+
+BlueCross BlueShield (HCSC) — Technology Enterprise Architect (Jun 2018 – Aug 2018) — Chicago, IL
+- Execute individual contributor projects that become inputs and contribute toward HCSC's enterprise data strategy.
+- Convert technical data to ideas and concepts that encourage pursuit of strategy or solicit action.
+
+Prenosis Inc. — iOS Engineer / UX Engineer (Jul 2017 – Feb 2018) — Champaign, IL
+- Designed an iOS application from scratch that allows physicians to manage various patients' lab results, vitals, imaging results, and other significant statistics.
+- Integrated a feature called Prenosis Number, which acts as a risk stratification value that allows physicians to prioritize the order in which they see the patients.
+- Created a cross-functional feature such that physicians can access patients' past medical history, prescriptions, and doctor notes, as well as prescribe new medications.
+
+Wipro Consulting — Software Engineering Intern (May 2016 – Jul 2016) — Chennai, India
+- Parsed data from IBM Cognos and converted it to a Tableau data source to facilitate an efficient transition between big data platforms so that clients could move towards more modern data management systems.
+- Developed a data source extractor that imports large amounts of raw information from distributed servers to create a final Tableau data source by accessing various queries and filters applied on the collected data sets.
+
+ByteBros. — Freelance iOS Contractor / UI Designer (Jan 2016 – Jul 2016) — Champaign, IL
+- Implemented a multi-view iOS application using payment API methods including Venmo and PayPal for a client that allows users to rent commonplace items from each other.
+- Utilized Facebook logins to generate user accounts in Firebase to store preferences and rent history.
+
+LEADERSHIP
+HackIllinois — iOS Developer (Jan 2017 – May 2018)
+- Developed an iOS application that allows about 15k people (hackers, mentors, recruiters) to check into events, check out hardware, and get food during the 36-hour hackathon. Raised $300k+ from event sponsors.
+
+HackIllinois — Open Source Coordinator (Aug 2015 – May 2016)
+- Managed the open source initiative, a pilot program that became a main attraction for leading technology firms and open source groups.
+- Invited 40 mentors from across the nation to oversee hackers contributing to existing projects and creating new ones.
+
+HackIllinois — Sponsorship Staff (Aug 2015 – May 2016)
+- Raised over $300,000 by building relationships with over 120 corporations.
+
+ACM — Admin Committee / Corporate Committee (Aug 2016 – May 2017)
+- Manage ACM's website and Active User Directory while maintaining servers for special interest groups.
+- Maintain professional relations between the university and corporations to facilitate tech talks.
+- Increase funding for workplace hardware supplies by establishing relationships with corporate sponsors.
+
+CodePath — Class Coordinator / iOS Developer (Jan 2016 – Jul 2016)
+- Created the bridge between CodePath University and UIUC and taught an iOS bootcamp lab.
+- Developed several unique iOS applications each week, including a TMDB movies and TV app.
+
+PROJECTS
+Evolve (Claude Code Framework)
+- Spec-driven framework that extends claude-code with continuous deep research, skill development, and curriculum discovery.
+- Guides code generation with Agile and CI/CD, extensions (superclaude, claude flow, ccpm, MCPs), and multi-agent git worktrees.
+
+RoutinePlus (Jan 2017 – Jun 2017)
+Flight Simulator (Oct 2016 – Dec 2016)
+Nanotechnology Research (Oct 2016 – Dec 2016)
+Bullets for these three are unchanged from content/cv.txt.
+
+SKILLS
 DevOps: AWS, Terraform, Jenkins, Azure
 Languages: Python, C++, C, Java, Haskell
 AI & LLMs: claude-code, codex, gemini-cli, cursor, MCP Servers, Context Engineering, SPARC, superclaude, ccpm, claude flow
@@ -170,81 +96,3 @@ iOS: Xcode, Swift, jazzy-docs, cocoapods
 Web: HTML, CSS, JavaScript, WebGL
 3D: Maya, Unity, Blender, AfterEffects, Inventor, Unreal Engine
 Data Analytics: pandas, Tableau, Cognos, PowerBI
-
-
-+============+
-| Coursework |
-+============+
-Data Structures (CS 225)
-Computer Architecture (CS 233)
-Honors Systems Programming (CS 241+296)
-Operating Systems Design (CS 423)
-Compilers (CS 421)
-Text Information Systems (CS 410)
-Applied Machine Learning (CS 498-DF)
-Parallel Programming (CS 484)
-Computer Graphics (CS 418)
-Virtual Reality (CS 498-SL3)
-Differential Equations Plus (MATH 286) 
-Engineering Entrepreneurship (TE 360)
-Technology Entrepreneurship (TE 461)
-High-Tech Venture Marketing (TE 466)
-Classical Mechanics I (PHYS 325)
-Electromagnetic Fields I (PHYS 435)
-Special Topics (PHYS 398)W
-General Chemistry I (CHEM 102)
-General Chemistry II (CHEM 104)
-Intro Computing: Engrg & Sci (CS 101)
-Microeconomic Principles (ECON 102)
-Macroeconomic Principles (ECON 103)
-Social and Cultural Geography (GEOG 104)
-Calculus (MATH 220)
-Calculus II (MATH 231)
-Statistics (STAT 100)
-Calculus III (MATH 241)
-Asian Mythology (ASST 104)
-Nanotechnology: Risks & Promise (BIOE 198)
-Intro to Computer Science Dept proficiency test (CS 125)
-Engineering Orientation (ENG 100)
-Nature and American Culture (HIST 282)
-Intro to Differential Eq Plus (MATH 286)
-Physics Careers (PHYS 110)
-University Physics: Mechanics (PHYS 211)
-Discrete Structures (CS 173)
-Data Structures (CS 225)
-Intro to Differential Eq Plus (MATH 286)
-Writing and Research (RHET 105)
-High-Tech Venture Marketing (TE 466)
-Intro to Film (MACS 104)
-Computer Architecture (CS 233)
-System Programming (CS 241)
-Honors Course (CS 296)
-Interactive Computer Graphics (CS 418)
-Virtual Reality (CS 498)
-Lect in Engrg Entrepreneurship (TE 360)
-Text Information Systems (CS 410)
-Progrmg Languages & Compilers (CS 421)
-Operating Systems Design (CS 423)
-Parallel Programming (CS 484)
-Applied Machine Learning (CS 498)
-Intro to Sport Psychology (KIN 247)
-Applied Linear Algebra (MATH 415)
-University Physics: Elec & Mag (PHYS 212)
-Univ Physics: Thermal Physics (PHYS 213)
-Emergence of Life (GEOL 111)
-Sport & Modern Society (KIN 249)
-Applied Linear Algebra (MATH 415)
-Univ Physics: Thermal Physics (PHYS 213)
-Univ Physics: Quantum Physics (PHYS 214)
-Relativity & Math Applications (PHYS 225)
-Technology Entrepreneurship (TE 461)
-Classical Mechanics I (PHYS 325)
-Electromagnetic Fields I (PHYS 435)
-Tech Innovations For the Exper (RST 199)
-Child, Comm, & Lang Ability (SHS 120)
-Modern Experimental Physics (PHYS 403)
-Thermal & Statistical Physics (PHYS 427)
-Plants, Pathogens, and People (PLPA 200)
-Subatomic Physics (PHYS 470)
-Quantum Physics I (PHYS 486)
-

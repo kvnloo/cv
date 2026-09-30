@@ -1,6 +1,9 @@
 %-------------------------
-% Product/Project Manager Resume - 1 Page
-% Optimized for: Product Manager, Technical PM, Program Manager roles
+% Reconciled from the Obsidian resume folder.
+% Facts and wording come from themes/ai-eng.odt (newest designed resume)
+% and content/cv.txt, with past-role dates from content/main.txt.
+% Metrics that were not in those sources are not included.
+% Based on Jake Gutierrez's template. License: MIT
 %------------------------
 
 \documentclass[letterpaper,11pt]{article}
@@ -16,7 +19,7 @@
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
-\input{glyphtounicode}
+% glyphtounicode is pdfTeX-only; XeTeX emits Unicode directly
 
 \pagestyle{fancy}
 \fancyhf{}
@@ -39,16 +42,23 @@
   \vspace{-4pt}\scshape\raggedright\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
-\pdfgentounicode=1
+% \pdfgentounicode=1
 
-\newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{-2pt}}}}
-\newcommand{\resumeSubheading}[4]{
+\newcommand{\resumeItem}[1]{\item\small{#1 \vspace{-2pt}}}
+\newcommand{\resumeSubheading}[4]{%
   \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
     \end{tabular*}\vspace{-7pt}
 }
+\newcommand{\resumeProjectHeading}[2]{%
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
@@ -58,92 +68,53 @@
 
 \begin{center}
     \textbf{\Huge \scshape Kevin Rajan} \\ \vspace{1pt}
-    \small \href{mailto:kevin@example.com}{\underline{kevin@example.com}} $|$
-    \href{https://linkedin.com/in/kevinsrajan}{\underline{linkedin.com/in/kevinsrajan}} $|$
-    \href{https://github.com/kevinsrajan}{\underline{github.com/kevinsrajan}}
+    \small (331) 444-2203 $|$
+    \href{mailto:kevinsrajan@gmail.com}{\underline{kevinsrajan@gmail.com}} $|$
+    Chicago, IL $|$
+    \href{https://github.com/kvnloo}{\underline{github.com/kvnloo}} $|$
+    \href{https://linkedin.com/in/kevinsrajan}{\underline{linkedin.com/in/kevinsrajan}}
 \end{center}
-
-\section{Core Competencies}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{Product Management}{: Roadmap Planning, User Research, Requirements Gathering, PRDs, Go-to-Market Strategy} \\
-     \textbf{Agile/Scrum}{: Sprint Planning, Backlog Grooming, Retrospectives, Story Points, Velocity Tracking, Jira, Confluence} \\
-     \textbf{Stakeholder Management}{: Executive Presentations, Cross-functional Leadership, Vendor Coordination} \\
-     \textbf{Technical Background}{: Python, AWS, Docker, Kubernetes, CI/CD, Data Analytics, ML/AI fundamentals}
-    }}
- \end{itemize}
 
 \section{Experience}
   \resumeSubHeadingListStart
-
     \resumeSubheading
-      {Founder \& Product Lead}{Jun. 2024 -- Present}
+      {Founder \& CEO}{Jun. 2024 -- Present}
       {zero, LLC}{Remote}
       \resumeItemListStart
-        \resumeItem{Led end-to-end product development lifecycle as sole founder, managing roadmap prioritization, sprint planning, and stakeholder communication while delivering MVP in 12 weeks}
-        \resumeItem{Conducted user research and competitive analysis to define product vision for AI automation platform}
-        \resumeItem{Managed technical development using Agile methodologies, balancing feature delivery with infrastructure investment}
-        \resumeItem{Achieved 50\% operating cost reduction through strategic infrastructure decisions and vendor negotiations}
+        \resumeItem{Conduct technical research to automate software processes while networking with software clients, enabling strategic alignment during discovery to identify pain points and create AI workflows to be included in a statement of work. Prototype OS-level automation for end-to-end product management, enabling LLMs to use internal, application-level APIs, resulting in complex workflows spanning multiple platforms/applications.}
+        \resumeItem{Build continuous research systems to synthesize population-level trends to formulate preventative health solutions.}
       \resumeItemListEnd
-
     \resumeSubheading
-      {Senior Consultant -- Product Owner \& Technical PM}{Jun. 2021 -- Jul. 2023}
+      {Senior Consultant, Technology Enablement}{Jun. 2021 -- Jul. 2023}
       {Slalom Consulting}{Chicago, IL}
       \resumeItemListStart
-        \resumeItem{Served as Product Owner for preventative health platform initiative, leading Agile ceremonies (sprint planning, retrospectives) and managing backlog with 100+ user stories in Jira}
-        \resumeItem{Orchestrated health data integration from wearables to metabolic panels, coordinating with 5+ health tech partners}
-        \resumeItem{Championed DevOps training program for 500+ new hires, achieving 95\% satisfaction scores and reducing onboarding time by 40\%}
-        \resumeItem{Led multi-disciplinary team modernizing technology systems for Fortune 500 client (\$4B+ revenue) across 12 teams and verticals}
-        \resumeItem{Spearheaded centralized knowledge base creation, curating 200+ technical documents in Confluence}
-        \resumeItem{Delivered executive presentations translating complex technical concepts into actionable business strategies}
+        \resumeItem{Steered the conceptualization of a preventative health platform acting as product owner. Orchestrated the amalgamation of diverse health data sources, from wearables to full metabolic/blood panels. Initiated outreach to several health tech leaders and experts to gather insights, shaping preliminary ideas for platform features. Prioritized areas of focus by aligning the platform with cutting-edge health research and its potential for predictive analysis and enhanced patient outcomes.}
+        \resumeItem{Spearheaded the creation of a centralized knowledge base, curating exemplary business documents like SPROs, customer stories, qualifiers, and evaluations across technological and business administrative platforms to enhance company-wide accessibility post-sanitization and lay the groundwork for AI-driven content generation.}
+        \resumeItem{Championed a comprehensive DevOps training program tailored for over 500 new hires, ensuring a smooth transition into the company's technology ecosystem. Designed an engaging onboarding session anchored around point poker, fostering collaboration and hands-on learning. Orchestrated multi-cloud environments to provide an interactive, holistic, real-world experience of the best practices we use with our clients.}
       \resumeItemListEnd
-
     \resumeSubheading
-      {IT Enterprise Architect Intern}{Jun. 2018 -- Aug. 2018}
-      {BlueCross BlueShield (HCSC)}{Chicago, IL}
-      \resumeItemListStart
-        \resumeItem{Created executive presentations translating technical data insights into strategies, influencing \$2M+ technology investments}
-        \resumeItem{Collaborated with cross-functional teams across 5 departments to document architecture and propose modernization roadmap}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {iOS Product Lead / UX Engineer}{Jul. 2017 -- Feb. 2018}
-      {Prenosis Inc.}{Champaign, IL}
-      \resumeItemListStart
-        \resumeItem{Conducted user research with 15+ physicians to iterate on UX design, improving task completion rate by 35\%}
-        \resumeItem{Defined product requirements for patient management app serving 1,000+ patients across healthcare facilities}
-        \resumeItem{Implemented risk stratification feature reducing physician decision time by 25\% through automated prioritization}
-      \resumeItemListEnd
-
-  \resumeSubHeadingListEnd
-
-\section{Leadership Experience}
-  \resumeSubHeadingListStart
-
-    \resumeSubheading
-      {Sponsorship Lead / Open Source Coordinator}{Aug. 2015 -- May 2018}
+      {Sponsorship Staff}{Aug. 2015 -- May 2016}
       {HackIllinois}{Champaign, IL}
       \resumeItemListStart
-        \resumeItem{Raised \$300K+ in sponsorships by building relationships with 120+ corporations including Google, Microsoft, and Facebook}
-        \resumeItem{Led cross-functional team of 8 staff using Agile methodologies to execute Midwest's largest collegiate hackathon (15,000+ attendees)}
-        \resumeItem{Managed open source initiative coordinating 40 mentors to guide 500+ hackers, resulting in 50+ merged PRs}
+        \resumeItem{Raised over \$300,000 by building long-lasting relationships with over 120 corporations.}
+        \resumeItem{Streamlined relations between the staff and sponsoring corporations to guarantee an inviting corporate experience during the event while managing several other logistics of the hackathon.}
       \resumeItemListEnd
-
-    \resumeSubheading
-      {Class Coordinator}{Jan. 2016 -- Jul. 2016}
-      {Codepath University Partnership}{Champaign, IL}
-      \resumeItemListStart
-        \resumeItem{Established official partnership with UIUC, coordinating logistics for bootcamp serving 50+ students per semester}
-        \resumeItem{Mentored 20+ students with 80\% completing capstone projects}
-      \resumeItemListEnd
-
+  \resumeSubHeadingListEnd
+\section{Projects}
+  \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Evolve (Claude Code Framework)}}{Current}
+          \resumeItemListStart
+            \resumeItem{Research and implement a spec-driven, dynamic framework that extends claude-code to methodically automate product development by integrating continuous deep research with skill development and curriculum discovery (inspired by papers like Voyager, Eureka, Alpha Evolve, SPARC).}
+            \resumeItem{Mitigate hallucinations by guiding code generation with existing software frameworks (Agile, CI/CD), exhaustively researching state-of-the-art practices, extending capability by integrating with extensions (superclaude, claude flow, ccpm, MCPs), and parallelizing tasks by orchestrating multi-agent systems across separate workspaces (using git worktrees) for each feature.}
+          \resumeItemListEnd
   \resumeSubHeadingListEnd
 
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
       {University of Illinois at Urbana-Champaign}{Urbana-Champaign, IL}
-      {B.S. Engineering Physics, Minor in Computer Science; Certificate in Technology Commercialization}{May 2020}
+      {B.S. Engineering Physics, Minor in Computer Science}{Graduated May 2020}
   \resumeSubHeadingListEnd
 
 \end{document}
